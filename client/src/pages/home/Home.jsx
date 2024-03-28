@@ -14,7 +14,7 @@ import netlify from '../../assets/logos/netlify.svg'
 
 function Home() {
   return (
-    <>
+    <div className='home-page'>
       <div className='home-head-containers'>
         <h2 className='headings'>Graduating GPA of 3.85</h2>
         <h2 className='headings'>Experience with 30+ Projects</h2>
@@ -35,7 +35,7 @@ function Home() {
         <img className='tech-logo' src={express} alt="express logo" />
         <img className='tech-logo' src={netlify} alt="netlify logo" />
       </div>
-    </>
+    </div>
   )
 }
 
