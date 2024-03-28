@@ -7,8 +7,10 @@ function Navbar() {
     <header>
         <nav>
             <div className='logo-container'>
-                <img className='nav-logo' src={bradyLogo} alt="Brady Logo" />
-                <h1>Brady Billeisen</h1>
+                <Link className='logo-container' to='/'>
+                    <img className='nav-logo' src={bradyLogo} alt="Brady Logo" />
+                    <h1>Brady Billeisen</h1>
+                </Link>
             </div>
             <ul className='nav-items'>
                 <li>
