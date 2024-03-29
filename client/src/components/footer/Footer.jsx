@@ -6,11 +6,7 @@ function Footer() {
   return (
     <div className='footer'>
 
-        {/* <div className='footer-logo-container'>
-            <img className='footer-logo' src={bradyLogo} alt="Brady Logo" />
-        </div> */}
-
-        <div className='column-one'>
+        <div>
             <h3 className='footer-labels'>Links</h3>
             <ul className='footer-links'>
                 <li>
@@ -30,6 +26,28 @@ function Footer() {
                 </li>
             </ul>
         </div>
+
+        <div>
+            <ul className='footer-logo-container'>
+                <li className='location-items'><img className='footer-logo' src={bradyLogo} alt="Brady Logo" /></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 className='footer-labels'>Location</h3>
+            <ul className='footer-items'>
+                <li className='location-items'>Indianapolis, IN</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 className='footer-labels' id='relocation'>Open to relocation</h3>
+            <ul className='footer-items'>
+                <li className='location-items' id='chicago'>Chicago, IL</li>
+                <li className='location-items'>Nashville, TN</li>
+            </ul>
+        </div>
+
     </div>
   )
 }
