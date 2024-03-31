@@ -103,7 +103,7 @@ h1 {
     cursor: pointer;
     background-color: #560BAD;
     border-radius: 50px;
-    transition: ease-in-out 300ms;
+    transition: ease-in-out 200ms;
 }
 
 .portfolio-btn:hover {

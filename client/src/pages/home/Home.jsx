@@ -62,13 +62,6 @@ function Home() {
         </section>
 
         <section className='cozy'>
-          {/* <div className='cozy-left-container'>
-            <p className='cozy-description'>
-            Cozy Corner is a web application that helps readers connect with the reading world. These connections are made through fellow
-            readers on the app and suggest reads based on the current popular books. The reader can also keep up with their own reading
-            progress and see their reading history.
-            </p>
-          </div> */}
           <div className='cozy-container'>
             <ul className='cozy-flex'>
               <p className='cozy-description'>
@@ -77,12 +70,31 @@ function Home() {
               progress and see their reading history.
               </p>
               <div className='cozy-content'>
-                <img className='featured-img' src={cozyCorner} alt="Granular Garden" />
+                <img className='featured-img' src={cozyCorner} alt="Cozy Corner" />
                 <div>
                   <h2 className='cozy-title-one'>Cozy</h2>
                   <h2 className='cozy-title-two'>Corner</h2>
                 </div>
               </div>
+            </ul>
+          </div>
+        </section>
+
+        <section className='class-guides'>
+          <div className='eso-container'>
+            <ul className='eso-flex'>
+              <div className='eso-content'>
+                <img className='featured-img' src={esoClassGuides} alt="ESO ClassGuides" />
+                <div>
+                  <h2 className='eso-title-one'>ESO</h2>
+                  <h2 className='eso-title-two'>ClassGuides</h2>
+                </div>
+              </div>
+              <p className='eso-description'>
+              Cozy Corner is a web application that helps readers connect with the reading world. These connections are made through fellow
+              readers on the app and suggest reads based on the current popular books. The reader can also keep up with their own reading
+              progress and see their reading history.
+              </p>
             </ul>
           </div>
         </section>
