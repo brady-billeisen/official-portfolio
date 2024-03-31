@@ -45,14 +45,45 @@ function Home() {
 
         <section className='granular'>
           <div className='granular-top-container'>
-            <img className='granular-img' src={granularGarden} alt="Granular Garden" />
+            <img className='featured-img' src={granularGarden} alt="Granular Garden" />
             <div>
-              <h2 className='granular-title'>Granular</h2>
-              <h2 className='granular-title'>Garden</h2>
+              <h2 className='granular-title-one'>Granular</h2>
+              <h2 className='granular-title-two'>Garden</h2>
             </div>
           </div>
           <div className='granular-bottom-container'>
-            <p className='granular-description'>Granular Garden, a vibrant and groundbreaking application that embraces the soul of music creation and fosters a thriving community of artists, producers, and music enthusiasts. A platform made using the newest development technologies to combine the finest elements of SoundCloud, Splice, and Twitter, crafting an immersive experience that revolutionizes the way artists collaborate, share, and express themselves.</p>
+            <p className='granular-description'>
+            Granular Garden, a vibrant and groundbreaking application that embraces the soul of music
+            creation and fosters a thriving community of artists, producers, and music enthusiasts. A platform made using the newest
+            development technologies to combine the finest elements of SoundCloud, Splice, and Twitter, crafting an immersive experience
+            that revolutionizes the way artists collaborate, share, and express themselves.
+            </p>
+          </div>
+        </section>
+
+        <section className='cozy'>
+          {/* <div className='cozy-left-container'>
+            <p className='cozy-description'>
+            Cozy Corner is a web application that helps readers connect with the reading world. These connections are made through fellow
+            readers on the app and suggest reads based on the current popular books. The reader can also keep up with their own reading
+            progress and see their reading history.
+            </p>
+          </div> */}
+          <div className='cozy-container'>
+            <ul className='cozy-flex'>
+              <p className='cozy-description'>
+              Cozy Corner is a web application that helps readers connect with the reading world. These connections are made through fellow
+              readers on the app and suggest reads based on the current popular books. The reader can also keep up with their own reading
+              progress and see their reading history.
+              </p>
+              <div className='cozy-content'>
+                <img className='featured-img' src={cozyCorner} alt="Granular Garden" />
+                <div>
+                  <h2 className='cozy-title-one'>Cozy</h2>
+                  <h2 className='cozy-title-two'>Corner</h2>
+                </div>
+              </div>
+            </ul>
           </div>
         </section>
 

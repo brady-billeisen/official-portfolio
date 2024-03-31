@@ -1,3 +1,7 @@
+.contact-page {
+    animation: fadein 1s;
+}
+
 .contact-form {
     width: 850px;
     height: 850px;
