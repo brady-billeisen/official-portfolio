@@ -91,9 +91,10 @@ function Home() {
                 </div>
               </div>
               <p className='eso-description'>
-              Cozy Corner is a web application that helps readers connect with the reading world. These connections are made through fellow
-              readers on the app and suggest reads based on the current popular books. The reader can also keep up with their own reading
-              progress and see their reading history.
+              Whether you're a seasoned adventurer or just starting your journey, ESO ClassGuides is your go-to tool for staying
+              informed, improving your gameplay, and unlocking the full potential of your character. Let the application guide you
+              through the vast universe of Elder Scrolls Online, helping you conquer any challenge that comes your way.
+              Elevate your ESO adventure like never before with ESO ClassGuides!
               </p>
             </ul>
           </div>
