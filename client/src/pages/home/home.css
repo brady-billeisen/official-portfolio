@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 75px;
+    padding-top: 20px;
     flex-shrink: 0;
 }
 
@@ -160,7 +160,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 175px;
+    padding-top: 125px;
     margin-left: 75px;
     flex-shrink: 0;
 }
@@ -222,7 +222,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 175px;
+    padding-top: 125px;
     margin-left: 75px;
     flex-shrink: 0;
 }
@@ -268,5 +268,5 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    margin-left: 50px;
+    margin-left: 75px;
 }
