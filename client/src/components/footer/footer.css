@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 1440px;
+    /* width: 1440px; */
     height: 280px;
     flex-shrink: 0;
     background: #000;
@@ -50,6 +50,10 @@
     transition: 200ms;
 }
 
+.link-items:hover {
+    color: #C77DFF;
+}
+
 .location-items {
     color: #FFF;
     font-size: 16px;
@@ -61,10 +65,6 @@
     margin-right: 20px;
     /* margin-bottom: 20px; */
     /* transition: 200ms; */
-}
-
-.link-items:hover {
-    color: #C77DFF;
 }
 
 #chicago {

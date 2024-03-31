@@ -11,6 +11,9 @@ import node from '../../assets/logos/node.svg'
 import heroku from '../../assets/logos/heroku.svg'
 import express from '../../assets/logos/express.svg'
 import netlify from '../../assets/logos/netlify.svg'
+import granularGarden from '../../assets/images/Granular-Garden.png'
+import cozyCorner from '../../assets/images/Cozy-Corner.png'
+import esoClassGuides from '../../assets/images/ESO-Class-Guides.png'
 
 function Home() {
   return (
@@ -37,6 +40,19 @@ function Home() {
             <img className='tech-logo' src={heroku} alt="heroku logo" />
             <img className='tech-logo' src={express} alt="express logo" />
             <img className='tech-logo' src={netlify} alt="netlify logo" />
+          </div>
+        </section>
+
+        <section className='granular'>
+          <div className='granular-top-container'>
+            <img className='granular-img' src={granularGarden} alt="Granular Garden" />
+            <div>
+              <h2 className='granular-title'>Granular</h2>
+              <h2 className='granular-title'>Garden</h2>
+            </div>
+          </div>
+          <div className='granular-bottom-container'>
+            <p className='granular-description'>Granular Garden, a vibrant and groundbreaking application that embraces the soul of music creation and fosters a thriving community of artists, producers, and music enthusiasts. A platform made using the newest development technologies to combine the finest elements of SoundCloud, Splice, and Twitter, crafting an immersive experience that revolutionizes the way artists collaborate, share, and express themselves.</p>
           </div>
         </section>
 
