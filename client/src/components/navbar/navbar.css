@@ -63,7 +63,7 @@ h1 {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    transition: 200ms;
+    transition: 300ms;
 }
 
 .nav-links:hover {
@@ -103,7 +103,7 @@ h1 {
     cursor: pointer;
     background-color: #560BAD;
     border-radius: 50px;
-    transition: ease-in-out 200ms;
+    transition: ease-in-out 300ms;
 }
 
 .portfolio-btn:hover {

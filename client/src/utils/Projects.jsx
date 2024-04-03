@@ -9,7 +9,8 @@ const projects = [
         title: 'Granular Garden',
         src: granularGarden,
         description: `
-        Technologies Used: MVC (Model-View-Controller)
+        Technologies: MVC (Model-View-Controller), Node.js, Express.js, Handlebars.js, MySQL/Sequelize ORM,
+        Authentication, Heroku, Cloudinary
         `,
         deployed: 'https://frozen-tor-00446-d883d20dd32e.herokuapp.com/',
         gitHub: 'https://github.com/codehashira28/granular-garden',
@@ -20,7 +21,7 @@ const projects = [
         title: 'Cozy Corner',
         src: cozyCorner,
         description: `
-        Technologies Used: MERN Stack
+        Technologies: MongoDB, Express.js, React, Node.js, JWT Authentication, GraphQL, Google Books API, Heroku
         `,
         deployed: 'https://cozy-corner-9b91c31f9b05.herokuapp.com/',
         gitHub: 'https://github.com/zoeedge16/cozy-corner',
@@ -31,7 +32,7 @@ const projects = [
         title: 'ESO ClassGuides',
         src: esoClassGuides,
         description: `
-        Technologies Used: JavaScript
+        Technologies: JavaScript, YouTube API, Reddit API, Bootstrap, GitHub Pages
         `,
         deployed: 'https://brady-billeisen.github.io/eso-class-guide-app/',
         gitHub: 'https://github.com/brady-billeisen/eso-class-guide-app',
@@ -42,7 +43,7 @@ const projects = [
         title: 'React Portfolio',
         src: reactPortfolio,
         description: `
-        Technologies Used: React
+        Technologies: React, React-Router-Dom, Bootstrap, Axios
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
         gitHub: 'https://github.com/brady-billeisen/react-portfolio',
