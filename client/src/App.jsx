@@ -7,6 +7,7 @@ import Resume from './pages/resume/Resume'
 import Portfolio from './pages/portfolio/Portfolio'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
+import GranularGarden from './pages/granulargarden/GranularGarden'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route element={<Contact />} path='/contact' />
         <Route element={<Resume />} path='/resume' />
         <Route element={<Portfolio />} path='/portfolio' />
+        <Route element={<GranularGarden />} path='/granular-garden' />
       </Routes>
       <Footer />
     </Router>

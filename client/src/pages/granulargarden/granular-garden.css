@@ -1,0 +1,18 @@
+.row {
+    flex-direction: row;
+    /* width: 100%; */
+    background-color: #000;
+    width: 1440px;
+    height: 950px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
