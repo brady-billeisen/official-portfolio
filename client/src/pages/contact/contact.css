@@ -4,7 +4,7 @@
 
 .contact-form {
     width: 850px;
-    height: 600px;
+    height: 620px;
     /* margin-top: 50px;
     margin-bottom: 50px; */
     flex-shrink: 0;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     width: 850px;
-    height: 600px;
+    height: 620px;
     border-radius: 30px;
     background-image: linear-gradient(71deg, #121013, #C77DFF, #121013, #560BAD);
     padding: 2px;
@@ -102,7 +102,6 @@
 .btn-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     margin-right: 25px;
 }
 

@@ -17,7 +17,7 @@ function Portfolio() {
                         <div className='card-body'>
                           <img className='card-img' src={ project.src } alt={ project.title } />
                             <h2 className='card-title'>{ project.title }</h2>
-                          <p className='card-technologies'>{ project.description }</p>
+                          <p className='card-technologies'>{ project.technologies }</p>
                         </div>
                       </div>
                     </div>

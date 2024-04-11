@@ -18,9 +18,15 @@ const projects = [
         id: 1,
         title: 'Granular Garden',
         src: granularGarden,
-        description: `
+        technologies: `
         Technologies: MVC (Model-View-Controller), JavaScript, Node.js, Express.js, Handlebars.js, CSS, MySQL/Sequelize ORM,
         Authentication, Heroku, Cloudinary
+        `,
+        description: `
+        Granular Garden, a vibrant and groundbreaking application that embraces the soul of music
+        creation and fosters a thriving community of artists, producers, and music enthusiasts. A platform made using the newest
+        development technologies to combine the finest elements of SoundCloud, Splice, and Twitter, crafting an immersive experience
+        that revolutionizes the way artists collaborate, share, and express themselves.
         `,
         deployed: 'https://frozen-tor-00446-d883d20dd32e.herokuapp.com/',
         gitHub: 'https://github.com/codehashira28/granular-garden',
@@ -30,7 +36,7 @@ const projects = [
         id: 2,
         title: 'Cozy Corner',
         src: cozyCorner,
-        description: `
+        technologies: `
         Technologies: MongoDB, Express.js, React, Node.js, JavaScript, CSS, JWT Authentication, GraphQL, Google Books API, Heroku
         `,
         deployed: 'https://cozy-corner-9b91c31f9b05.herokuapp.com/',
@@ -41,7 +47,7 @@ const projects = [
         id: 3,
         title: 'ESO ClassGuides',
         src: esoClassGuides,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, YouTube API, Reddit API, Bootstrap, GitHub Pages
         `,
         deployed: 'https://brady-billeisen.github.io/eso-class-guide-app/',
@@ -52,7 +58,7 @@ const projects = [
         id: 4,
         title: 'React Portfolio',
         src: reactPortfolio,
-        description: `
+        technologies: `
         Technologies: React, React-Router-Dom, Bootstrap, CSS, Axios
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
@@ -63,7 +69,7 @@ const projects = [
         id: 5,
         title: 'Weather Dashboard',
         src: weatherDashboard,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, Open Weather API, Geocoder API, Bootstrap, Local Storage
         `,
         deployed: 'https://brady-billeisen.github.io/weather-dashboard/',
@@ -74,7 +80,7 @@ const projects = [
         id: 6,
         title: 'Code Quiz',
         src: codeQuiz,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, Bootstrap, Local Storage
         `,
         deployed: 'https://brady-billeisen.github.io/code-quiz/',
@@ -85,7 +91,7 @@ const projects = [
         id: 7,
         title: 'Work Day Scheduler',
         src: workDayScheduler,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, Local Storage
         `,
         deployed: 'https://brady-billeisen.github.io/work-day-scheduler/',
@@ -96,7 +102,7 @@ const projects = [
         id: 8,
         title: 'Password Generator',
         src: passwordGenerator,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, GitHub Pages
         `,
         deployed: 'https://brady-billeisen.github.io/password-generator/',
@@ -107,7 +113,7 @@ const projects = [
         id: 9,
         title: 'JATE',
         src: jate,
-        description: `
+        technologies: `
         Technologies: JavaScript, HTML, CSS, Babel, Workbox, Webpack, IndexedDB
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
@@ -118,7 +124,7 @@ const projects = [
         id: 10,
         title: 'Horiseon Code Refactor',
         src: horiseonRefactor,
-        description: `
+        technologies: `
         Technologies: HTML, CSS
         `,
         deployed: 'https://brady-billeisen.github.io/code-refactor/',
@@ -129,7 +135,7 @@ const projects = [
         id: 11,
         title: 'README Generator',
         src: readmeGenerator,
-        description: `
+        technologies: `
         Technologies: JavaScript, Node.js, Inquirer Package
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
@@ -140,7 +146,7 @@ const projects = [
         id: 12,
         title: 'E-Commerce Back End',
         src: eCommerce,
-        description: `
+        technologies: `
         Technologies: JavaScript, MySQL, Express.js, RESTful API's, Sequelize, dotenv Package, Insomnia
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
@@ -151,7 +157,7 @@ const projects = [
         id: 13,
         title: 'Employee Tracker',
         src: employeeTracker,
-        description: `
+        technologies: `
         Technologies: JavaScript, MySQL, Inquirer Package, console.table Package
         `,
         deployed: 'https://bradybilleisenportfolio.netlify.app/',
@@ -162,7 +168,7 @@ const projects = [
         id: 14,
         title: 'SVG Logo Maker',
         src: svgLogoMaker,
-        description: `
+        technologies: `
         Technologies: JavaScript, Node.js, Jest, Unit Tests, Inquierer Package
         `,
         deployed: 'https://brady-billeisen.github.io/password-generator/',
