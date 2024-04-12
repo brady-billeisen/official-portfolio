@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import './granular-garden.css'
 import Projects from '../../utils/Projects'
+import './work-day-scheduler.css'
 
-function Granular_Garden() {
+function WorkDayScheduler() {
 
-  const projectInfo = Projects.find(project => project.title === "Granular Garden")
+    const projectInfo = Projects.find(project => project.title === 'Work Day Scheduler')
 
   return (
     <main>
@@ -62,4 +62,4 @@ function Granular_Garden() {
   )
 }
 
-export default Granular_Garden
+export default WorkDayScheduler

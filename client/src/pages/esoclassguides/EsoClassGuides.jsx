@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import './granular-garden.css'
 import Projects from '../../utils/Projects'
+import './eso-class-guides.css'
 
-function Granular_Garden() {
+function EsoClassGuides() {
 
-  const projectInfo = Projects.find(project => project.title === "Granular Garden")
+    const projectInfo = Projects.find(project => project.title === 'ESO ClassGuides')
 
   return (
     <main>
@@ -62,4 +62,4 @@ function Granular_Garden() {
   )
 }
 
-export default Granular_Garden
+export default EsoClassGuides
