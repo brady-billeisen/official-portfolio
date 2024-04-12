@@ -21,26 +21,30 @@ function Granular_Garden() {
                 <p className='technologies'>{ projectInfo.technologies }</p>
               </div>
             </div>
-            <div className='column-two'>
-              <div>
-                <h2 className='proj-title'>{ projectInfo.title }</h2>
-                <p className='proj-description'>{ projectInfo.description }</p>
-                <div className='btn-container'>
-                  <div className='btn-bg'>
-                    <Link to={ projectInfo.deployed }>
-                      <button className='btn'>Deployed Site</button>
-                    </Link>
-                  </div>
-                  <div className='btn-bg'>
-                    <Link to={ projectInfo.gitHub }>
-                      <button className='btn'>GitHub Repo</button>
-                    </Link>
+
+            <div className='column-two-bg'>
+              <div className='column-two'>
+                <div>
+                  <h2 className='proj-title'>{ projectInfo.title }</h2>
+                  <p className='proj-description'>{ projectInfo.description }</p>
+                  <div className='btn-container'>
+                    <div className='btn-bg'>
+                      <Link to={ projectInfo.deployed }>
+                        <button className='btn'>Deployed Site</button>
+                      </Link>
+                    </div>
+                    <div className='btn-bg'>
+                      <Link to={ projectInfo.gitHub }>
+                        <button className='btn'>GitHub Repo</button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </section>
 
     </main>

@@ -2,6 +2,15 @@
     animation: fadein 1s;
 }
 
+@keyframes fadein {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+}
+
 .contact-form {
     width: 850px;
     height: 620px;
