@@ -26,6 +26,9 @@ function Navbar() {
                     <li>
                         <Link className='nav-links' to={'/resume'}>Resume</Link>
                     </li>
+                    <li>
+                        <Link className='nav-links' to={'/socials'}>Socials</Link>
+                    </li>
                 </ul>
                 <ul className='portfolio-btn-container'>
                     <Link className='portfolio-item' to={'/portfolio'}>

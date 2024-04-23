@@ -7,7 +7,7 @@ function EmployeeTracker() {
     const projectInfo = Projects.find(project => project.title === 'Employee Tracker')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function EmployeeTracker() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

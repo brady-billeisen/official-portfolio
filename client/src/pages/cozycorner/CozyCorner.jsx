@@ -7,7 +7,7 @@ function CozyCorner() {
     const projectInfo = Projects.find(project => project.title === 'Cozy Corner')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function CozyCorner() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

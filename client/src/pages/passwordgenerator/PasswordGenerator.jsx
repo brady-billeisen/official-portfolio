@@ -7,7 +7,7 @@ function PasswordGenerator() {
     const projectInfo = Projects.find(project => project.title === 'Password Generator')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function PasswordGenerator() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

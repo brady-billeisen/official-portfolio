@@ -21,6 +21,7 @@ import ReadMeGenerator from './pages/readmegenerator/ReadMeGenerator'
 import ECommerceBackEnd from './pages/ecommercebackend/ECommerceBackEnd'
 import EmployeeTracker from './pages/employeetracker/EmployeeTracker'
 import SvgLogoMaker from './pages/svglogomaker/SvgLogoMaker'
+import Socials from './pages/socials/Socials'
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route element={<ECommerceBackEnd />} path='/e-commerce-back-end' />
         <Route element={<EmployeeTracker />} path='/employee-tracker' />
         <Route element={<SvgLogoMaker />} path='/svg-logo-maker' />
+        <Route element={<Socials />} path='/socials' />
       </Routes>
       <Footer />
     </Router>

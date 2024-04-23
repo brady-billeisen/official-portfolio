@@ -7,7 +7,7 @@ function HoriseonCodeRefactor() {
     const projectInfo = Projects.find(project => project.title === 'Horiseon Code Refactor')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function HoriseonCodeRefactor() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

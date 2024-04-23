@@ -17,7 +17,6 @@ import esoClassGuides from '../../assets/images/ESO-Class-Guides.png'
 
 function Home() {
   return (
-    <main>
       <div className='home-page'>
 
         <section className='landing'>
@@ -101,7 +100,6 @@ function Home() {
         </section>
 
       </div>
-    </main>
   )
 }
 

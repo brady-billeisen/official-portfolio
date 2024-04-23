@@ -7,7 +7,7 @@ function ReadMeGenerator() {
     const projectInfo = Projects.find(project => project.title === 'README Generator')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function ReadMeGenerator() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

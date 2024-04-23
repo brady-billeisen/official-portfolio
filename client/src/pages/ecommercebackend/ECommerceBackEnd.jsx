@@ -7,7 +7,7 @@ function ECommerceBackEnd() {
     const projectInfo = Projects.find(project => project.title === 'E-Commerce Back End')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function ECommerceBackEnd() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

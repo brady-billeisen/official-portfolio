@@ -7,7 +7,7 @@ function WorkDayScheduler() {
     const projectInfo = Projects.find(project => project.title === 'Work Day Scheduler')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function WorkDayScheduler() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

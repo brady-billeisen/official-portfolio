@@ -7,7 +7,7 @@ function Granular_Garden() {
   const projectInfo = Projects.find(project => project.title === "Granular Garden")
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function Granular_Garden() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

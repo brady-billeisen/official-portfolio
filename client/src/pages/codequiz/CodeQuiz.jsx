@@ -7,7 +7,7 @@ function CodeQuiz() {
     const projectInfo = Projects.find(project => project.title === 'Code Quiz')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function CodeQuiz() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

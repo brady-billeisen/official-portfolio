@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 function Portfolio() {
   return (
-    <main>
       <div className='portfolio'>
         <div className='card-display'>
           <div className='all-cards-container'>
@@ -28,7 +27,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </main>
   )
 }
 

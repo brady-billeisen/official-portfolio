@@ -7,7 +7,7 @@ function EsoClassGuides() {
     const projectInfo = Projects.find(project => project.title === 'ESO ClassGuides')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function EsoClassGuides() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@ function ReactPortfolio() {
     const projectInfo = Projects.find(project => project.title === 'React Portfolio')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function ReactPortfolio() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

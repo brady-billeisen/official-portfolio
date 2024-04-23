@@ -7,7 +7,7 @@ function Jate() {
     const projectInfo = Projects.find(project => project.title === 'JATE')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function Jate() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@ function SvgLogoMaker() {
     const projectInfo = Projects.find(project => project.title === 'SVG Logo Maker')
 
   return (
-    <main>
+    <div>
 
       <section className='page-container'>
         <div className='content-container'>
@@ -58,7 +58,7 @@ function SvgLogoMaker() {
 
       </section>
 
-    </main>
+    </div>
   )
 }
 
