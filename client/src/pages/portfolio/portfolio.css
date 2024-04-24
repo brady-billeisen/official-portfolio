@@ -15,12 +15,13 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .all-cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 35px;
 }
 
 .card-container {
@@ -42,7 +43,7 @@
     /* background-image: linear-gradient(71deg, #121013, #560BAD, #121013); */
     background-image: linear-gradient(71deg, #121013, #C77DFF, #121013, #560BAD);
     padding: 2px;
-    margin-bottom: 50px;
+    /* margin-bottom: 30px; */
 }
 
 .card-body-container {

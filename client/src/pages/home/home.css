@@ -13,7 +13,7 @@
 
 .landing {
     /* width: 1440px; */
-    min-width: 100%;
+    width: 100%;
     /* height: 950px; */
     background-color: #000;
 }
@@ -21,6 +21,8 @@
 .home-head-containers {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .headings {
@@ -32,9 +34,16 @@
     line-height: normal;
 }
 
+.brady-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 110px;
+}
+
 .brady-logo {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     animation: rotate 15s linear infinite;
 }
 
@@ -47,32 +56,23 @@
     }
 }
 
-.brady-logo-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 140px;
-    margin-bottom: 160px;
-}
-
 .tech-logo-container {
     display: flex;
     justify-content: center;
-    margin-top: 75px;
-    padding-bottom: 75px;
+    margin-bottom: 75px;
 }
 
 .tech-logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 16px;
-    margin-right: 16px;
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .granular {
     /* width: 100%; */
     background-color: #FFF;
-    width: 1440px;
-    height: 950px;
+    width: 100%;
 }
 
 .granular-top-container {
@@ -136,8 +136,7 @@
 
 .cozy {
     background-color: #000;
-    width: 1440px;
-    height: 950px;
+    width: 100%;
 }
 
 .cozy-container {
