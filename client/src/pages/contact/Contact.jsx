@@ -28,9 +28,9 @@ function Contact() {
                   <li>
                     <textarea id="message" name="message" placeholder="Enter your message..." rows="20" required></textarea>
                   </li>
-                  <div className='btn-container'>
+                  <li className='btn-container'>
                     <button type='submit' className='submit-btn'>Submit</button>
-                  </div>
+                  </li>
                 </div>
               </ul>
             </form>
