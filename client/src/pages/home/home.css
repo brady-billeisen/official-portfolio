@@ -62,11 +62,17 @@
     margin-bottom: 75px;
 }
 
+.tech-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 30px;
+}
+
 .tech-logo {
     width: 85px;
     height: 85px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
 }
 
 .granular {

@@ -21,7 +21,7 @@
 .all-cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 45px;
 }
 
 .card-container {
@@ -37,8 +37,8 @@
 }
 
 .card-bg {
-    width: 400px;
-    height: 350px;
+    width: 360px;
+    height: 315px;
     border-radius: 10px 10px 30px 30px;
     /* background-image: linear-gradient(71deg, #121013, #560BAD, #121013); */
     background-image: linear-gradient(71deg, #121013, #C77DFF, #121013, #560BAD);
@@ -53,16 +53,16 @@
 }
 
 .card-body {
-    width: 400px;
-    height: 350px;
+    width: 360px;
+    height: 315px;
     border-radius: 15px 15px 30px 30px;
     background-image: linear-gradient(71deg, #080509, #1a171c, #080509);
     /* border: solid 1px #FFF; */
 }
 
 .card-img {
-    width: 400px;
-    height: 193px;
+    width: 360px;
+    height: 174px;
     border-radius: 10px 10px 0px 0px;
     /* border-bottom: solid 2px #D9D9D9; */
 }
@@ -93,7 +93,7 @@
     /* width: 200px; */
     /* height: 159px; */
     color: hsla(0, 0%, 100%, 0.5);
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

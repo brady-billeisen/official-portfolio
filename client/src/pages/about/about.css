@@ -1,0 +1,100 @@
+.gran-card-bg {
+    width: 400px;
+    height: 650px;
+    background-image: linear-gradient(71deg, #121013, #C77DFF, #121013, #560BAD);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.gran-card {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    width: 400px;
+    height: 650px;
+    background-image: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border-radius: 15px;
+    /* border: solid 1px; */
+}
+
+.gran-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gran-img {
+    width: 400px;
+    height: 193px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.gran-title {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid 1px #282828;
+    font-size: 38px;
+}
+
+
+.home-cards-container {
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(170deg, #000, #000, #000, #fff); */
+}
+
+.cards-container {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gran-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    font-size: 16px;
+    height: 210px;
+    width: 350px;
+}
+
+.featured-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.featured-btn-bg {
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(71deg, #C77DFF, #560BAD, #C77DFF, #560BAD);
+    padding: 1px;
+    transition: ease-in-out 300ms;
+}
+
+.featured-btn-bg:hover {
+    border-radius: 10px;
+}
+
+.featured-btn {
+    border: none;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    background-color: #000;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.featured-btn:hover {
+    border-radius: 10px;
+    background-color: #C77DFF;
+}

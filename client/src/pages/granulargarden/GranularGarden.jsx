@@ -10,6 +10,7 @@ function Granular_Garden() {
     <div>
 
       <section className='page-container'>
+
         <div className='content-container'>
           <div className='page-columns'>
             <div className='column-one'>

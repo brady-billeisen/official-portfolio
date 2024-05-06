@@ -14,8 +14,14 @@ import netlify from '../../assets/logos/netlify.svg'
 import granularGarden from '../../assets/images/Granular-Garden.png'
 import cozyCorner from '../../assets/images/Cozy-Corner.png'
 import esoClassGuides from '../../assets/images/ESO-Class-Guides.png'
+import Projects from '../../utils/Projects'
 
 function Home() {
+
+  const granular = Projects.find(project => project.title === 'Granular Garden');
+  const cozy = Projects.find(project => project.title === 'Cozy Corner');
+  const eso = Projects.find(project => project.title === 'ESO ClassGuides');
+
   return (
       <div className='home-page'>
 
@@ -29,16 +35,18 @@ function Home() {
             <img className='brady-logo' src={bradyLogo} alt="Brady Logo" />
           </div>
           <div className='tech-logo-container'>
-            <img className='tech-logo' src={javascript} alt="javascript logo" />
-            <img className='tech-logo' src={python} alt="python logo" />
-            <img className='tech-logo' src={html} alt="html logo" />
-            <img className='tech-logo' src={mysql} alt="mysql logo" />
-            <img className='tech-logo' src={css} alt="css logo" />
-            <img className='tech-logo' src={mongodb} alt="mongodb logo" />
-            <img className='tech-logo' src={node} alt="node logo" />
-            <img className='tech-logo' src={heroku} alt="heroku logo" />
-            <img className='tech-logo' src={express} alt="express logo" />
-            <img className='tech-logo' src={netlify} alt="netlify logo" />
+            <div className='tech-logo-grid'>
+              <img className='tech-logo' src={javascript} alt="javascript logo" />
+              <img className='tech-logo' src={python} alt="python logo" />
+              <img className='tech-logo' src={html} alt="html logo" />
+              <img className='tech-logo' src={mysql} alt="mysql logo" />
+              <img className='tech-logo' src={css} alt="css logo" />
+              <img className='tech-logo' src={mongodb} alt="mongodb logo" />
+              <img className='tech-logo' src={node} alt="node logo" />
+              <img className='tech-logo' src={heroku} alt="heroku logo" />
+              <img className='tech-logo' src={express} alt="express logo" />
+              <img className='tech-logo' src={netlify} alt="netlify logo" />
+            </div>
           </div>
         </section>
 
@@ -46,8 +54,8 @@ function Home() {
           <div className='granular-top-container'>
             <img className='featured-img' src={granularGarden} alt="Granular Garden" />
             <div>
-              <h2 className='granular-title-one'>Granular</h2>
-              <h2 className='granular-title-two'>Garden</h2>
+              <h1 className='granular-title-one'>Granular</h1>
+              <h1 className='granular-title-two'>Garden</h1>
             </div>
           </div>
           <div className='granular-bottom-container'>
